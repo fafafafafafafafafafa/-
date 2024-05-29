@@ -1,31 +1,33 @@
 {
 	"pages": [{
 		"path" : "pages/home/home",
-		"style" : 
-		{
-			//"navigationBarTitleText" : ""
-		}
-	},
-	{
+		"style" : {}
+	
+	},{
 		"path" : "pages/cate/cate",
-		"style" : 
-		{
-			//"navigationBarTitleText" : ""
-		}
-	},
-	{
+		"style" : {}
+		
+	},{
 		"path" : "pages/cart/cart",
-		"style" : 
-		{
-			//"navigationBarTitleText" : ""
-		}
-	},
-	{
+		"style" : {}
+	
+	},{
 		"path" : "pages/my/my",
-		"style" : 
+		"style" : {}
+	}],
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+			"path" : "goods_detail/goods_detail",
+			"style" : {}
+		},
 		{
-			//"navigationBarTitleText" : ""
-		}
+			"path" : "goods_list/goods_list",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}]
 	}],
 	"globalStyle": {
 		"navigationBarTitleText": "你好！欢迎来到集美厨具",
